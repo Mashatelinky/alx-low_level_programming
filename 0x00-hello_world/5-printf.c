@@ -3,7 +3,6 @@
 * main - Entry point
 *
 0x00. C - Hello, World
-
 *
 * Return: Always 0 (Success)
 */
