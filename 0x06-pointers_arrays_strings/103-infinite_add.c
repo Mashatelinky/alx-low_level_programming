@@ -63,14 +63,14 @@ if (temp_tot >= 10)
 overflow = 1;
 else
 overflow = 0;
-if (digits >= (size_r -1))
+if (digits >= (size_r - 1))
 return (0);
 *(r + digits) = (temp_tot % 10) + '0';
 digits++;
 j--;
 i--;
 }
-if (digits == size _ r)
+if (digits == size_r)
 return (0);
 *(r + digits) = '\0';
 rev_string(r);
